@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="mx.com.sintelti.capacitacion.hibernate.entity.EmpleadoEntity" table="EMPLEADO">
+        <id name="id" column="id_empleado"/>
+        <property name="nombre" column="nombre_empleado"/>
+        <property name="apellidoPaterno" column="apellido_paterno"/>
+        <property name="apellidoMaterno" column="apellido_materno"/>
+        <property name="edad" column="edad"/>
+        <property name="correo" column="correo_electronico"/>
+        <property name="puesto" column="puesto"/>
+    </class>
+</hibernate-mapping>
